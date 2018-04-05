@@ -12,6 +12,8 @@ tags:
 
 #### Raspberry pi3 내부 디렉토리 구조입니다.
 
+![rasp_dingdong_tree](https://user-images.githubusercontent.com/31085727/38352170-40f1aa68-38ed-11e8-8521-1edcc28e286d.JPG)
+
 ![라즈베리파이 디렉토리 구조](https://inchijeong.github.io/_posts/rasp_dingdong_tree.JPG)
 
 <br>
