@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "딩동의 노드 서버 코드"
+title: "DingDong의 노드 서버 코드"
 categories:
-  - Study
+  - Development
 tags:
+  - DingDong
   - raspberry pi
 ---
 
@@ -136,9 +137,7 @@ app.listen(3000, function () {
         var video = null;
 		video = fs.ReadStream('/home/pi/Desktop/dingdong/video/video.mp4');
        	console.log(video);
-		console.log("여 기있 음");
         if (video != null){
-			console.log("들어옴");
             sendFile(video);
 			console.log("비디오보냄");
 	       }

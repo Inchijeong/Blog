@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Study
-category: Study
+title: Development
+category: Development
 ---
 
 ***
