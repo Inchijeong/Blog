@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DingDong의 K-means 응용"
+title: "[부연설명]DingDong의 K-means 응용"
 categories:
   - Development
 tags:
@@ -8,12 +8,14 @@ tags:
   - K-means
 ---
 
+<br>
+
 ### K-means 를 어떻게 응용했는지 알아보겠습니다.
 
 <br>
 
-우선 K-means란 K개의 그룹으로 데이터를 묶는 클러스터링 방법입니다.
-개념에 대한 자세한 정보는 [K-means 위키백과](https://ko.wikipedia.org/wiki/K-%ED%8F%89%EA%B7%A0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/ "K-means") 를 참고하세요.
+우선 K-means란 K개의 그룹으로 데이터를 묶는 클러스터링 방법입니다.<br>
+개념에 대한 자세한 정보는 [K-means 위키백과](https://ko.wikipedia.org/wiki/K-%ED%8F%89%EA%B7%A0_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98 "K-means")를 참고하세요.
 
 <br>
 
@@ -27,6 +29,8 @@ tags:
 
 #### 패턴 분석을 통한 방문자를 구분하여 다른 알림을 표시합니다.
 
+<br>
+
 1. 일반 방문자가 왔을때 알림
 ![new_notice](https://user-images.githubusercontent.com/31085727/38353690-2943a600-38f2-11e8-84d0-29f8eca8937d.png)
 
@@ -38,8 +42,8 @@ tags:
 #### 구글링을 통한 코드 발췌.
 
 JAVA로 작성된 K-means 코드는 구글링을 통해
-[K-means 예제](https://picoledelimao.github.io/blog/2016/03/12/multithreaded-k-means-in-java/ "K-means 예제") 를 참고하였습니다.
-하지만 본 예제는 2차원, 즉 축이 2개로된 예제였습니다.
+[K-means 예제](https://picoledelimao.github.io/blog/2016/03/12/multithreaded-k-means-in-java/ "K-means 예제") 를 참고하였습니다.<br>
+하지만 본 예제는 2차원, 즉 축이 2개로된 예제였습니다.<br>
 제가 필요했던 것은 1차원 x축이 시간이 되는 코드였기 때문에 수정이 필요했습니다.
 
 <br>
@@ -236,8 +240,11 @@ public class Kmeans {
 }
 ```
 
-#### y축 제거, 거리 계산
+<br>
 
+y축 제거을 제거하고 거리 계산 코드 추가<br>
+
+#### 수정된 코드입니다.
 
 ```java
 package kmeans.exam;

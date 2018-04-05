@@ -5,4 +5,4 @@ category: Development
 ---
 
 ***
-개념 설명에 대한 카테고리
+개발 설명 대한 카테고리

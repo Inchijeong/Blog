@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DingDong에서의 cognitive service 사용"
+title: "[부연설명]DingDong의 Cognitive Service 사용"
 categories:
   - Development
 tags:
@@ -9,11 +9,13 @@ tags:
   - Face API
 ---
 
+<br>
+
 ### Cognitive Service 사용 방법에 대해 알아보겠습니다.
 
 <br>
 
-저는 Microsoft Cognitive Service 중 Face API를 사용하였습니다.
+저는 Microsoft Cognitive Service 중 Face API를 사용하였습니다.<br>
 사람의 얼굴을 분석해서 나이, 성별, 피부색 등을 분석해주는 서비스입니다.
 
 <br>
@@ -23,8 +25,7 @@ tags:
 
 <br>
 
-공식 홈페이지에서 제공하는 Java 코드 입니다.
-
+#### 공식 홈페이지에서 제공하는 Java 코드 입니다.
 
 ```java
 // This sample uses the Apache HTTP client library(org.apache.httpcomponents:httpclient:4.2.4)
@@ -118,11 +119,11 @@ public class Main
 }
 ```
 
-`builder.setParameter("returnFaceAttributes", "age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise");`
-부분을 보시면 불필요하게 많은 정보를 요청하게 됩니다.
+`builder.setParameter("returnFaceAttributes", "age,gender,headPose,smile...");`<br>
+부분을 보시면 불필요하게 많은 정보를 요청하게 됩니다.<br>
 그래서 저는 `builder.setParameter("returnFaceAttributes", "age,gender");` 로 수정하여 사용하였습니다.
 
-또한 위의 코드는 웹상 올려져 있는 사진을 보내는 코드였고
+또한 위의 코드는 웹상 올려져 있는 사진을 보내는 코드였고<br>
 제가 사용해야 할 사진은 서버 컴퓨터에 저장되어 있었기 때문에
 
 ```java
@@ -149,6 +150,7 @@ try {
 
 request.setEntity(bae);
 ```
+#### 수정된 코드입니다.
 
 ```java
 package com.dd.util;

@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "DingDong의 노드 서버 코드"
+title: "[부연설명]DingDong의 노드 서버 코드"
 categories:
   - Development
 tags:
   - DingDong
   - raspberry pi
 ---
+
+<br>
 
 ### DingDong이라는 초인종 기기에 대해 자세히 알아보겠습니다.
 
