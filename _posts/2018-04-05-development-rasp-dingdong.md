@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[부연설명]DingDong의 노드 서버 코드"
+title: "DingDong의 노드 서버 코드"
 categories:
   - Development
 tags:

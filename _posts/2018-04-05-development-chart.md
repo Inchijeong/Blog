@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[부연설명]DingDong의 Chart 화면 코드"
+title: "DingDong의 Chart 화면 코드"
 categories:
   - Development
 tags:
@@ -13,7 +13,7 @@ tags:
 
 ### 화면에서 보이는 차트 페이지 코드 입니다.
 
-```java
+```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <% // author: Inchijeong %>

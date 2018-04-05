@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[부연설명]DingDong의 K-means 응용"
+title: "DingDong의 K-means 응용"
 categories:
   - Development
 tags:

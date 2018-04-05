@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[부연설명]DingDong의 Cognitive Service 사용"
+title: "DingDong의 Cognitive Service 사용"
 categories:
   - Development
 tags:
@@ -150,6 +150,8 @@ try {
 
 request.setEntity(bae);
 ```
+<br>
+
 #### 수정된 코드입니다.
 
 ```java
