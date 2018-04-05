@@ -8,17 +8,16 @@ tags:
 ---
 
 ### DingDong이라는 초인종 기기에 대해 자세히 알아보겠습니다.
-<br>
-
-#### Raspberry pi3 내부 디렉토리 구조입니다.
-
-![rasp_dingdong_tree](https://user-images.githubusercontent.com/31085727/38352170-40f1aa68-38ed-11e8-8521-1edcc28e286d.JPG)
-
-![라즈베리파이 디렉토리 구조](https://inchijeong.github.io/_posts/rasp_dingdong_tree.JPG)
 
 <br>
 
-#### 초인종의 주요기능과 스프링 서버와의 통신을 위한 노드 서버의 전체 코드입니다.
+#### Raspberry pi3 디렉토리 구조입니다.
+
+![rasp_dingdong_structure](https://user-images.githubusercontent.com/31085727/38353685-27da3ba8-38f2-11e8-9eed-76d31cedc15e.JPG)
+
+<br>
+
+#### 핵심 파일인 dingdong.js의 전체 코드입니다.
 
 ```javascript
 var GPIO = require('onoff').Gpio;
