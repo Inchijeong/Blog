@@ -13,6 +13,10 @@ tags:
 
 ### 화면에서 보이는 차트 페이지 코드 입니다.
 
+<br>
+
+아래는 JSP의 script 전까지의 코드입니다.
+
 ```JSP
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -154,9 +158,13 @@ tags:
 	<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 	<!-- End Js -->
+```
 
+<br>
 
+아래는 script 코드입니다.
 
+```javascript
 	<!-- Chart Js -->
     <script>
         // 기간 설정
