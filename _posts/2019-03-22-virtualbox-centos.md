@@ -7,16 +7,6 @@ tags:
   - Linux
 ---
 
-# VirtualBox 에 CentOS 설치 및 설정
-
-
-
-**목차**
-
-[TOC]
-
-
-
 ## VirtualBox & CentOS 파일 다운로드
 
 1. 아래 사이트에 들어가
