@@ -5,7 +5,8 @@ highlighter:      rouge
 # Setup
 title:            Poetic Code
 tagline:          '시적인 코드'
-description:      '포기하지 않는 개발자 <br><b>인치정</b>의 Github Blog'
+# description:      '포기하지 않는 개발자 <br><b>인치정</b>의 Github Blog'
+description:      '간결하고 의미있고<br>함축적인 <b>코딩</b>을 위하여'
 url:              https://inchijeong.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
