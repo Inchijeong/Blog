@@ -5,4 +5,4 @@ category: Linux
 ---
 
 ---
-Linux에 관한 글
+리눅스(Linux)에 관한 글

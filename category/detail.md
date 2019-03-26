@@ -1,8 +1,8 @@
 ---
 layout: category
-title: Detail
-category: Detail
+title: JavaScript
+category: JavaScript
 ---
 
 ---
-상세 설명과 깊이있는 고찰
+자바스크립트(JavaScript)에 관한 글
